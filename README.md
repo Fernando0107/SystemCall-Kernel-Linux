@@ -51,10 +51,15 @@ Type this command in your terminal:
 wget https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.17.4.tar.xz
 ```
 > Note that you have to download a kernel that has the same or higher version that your linux system. In this case, we will download Linux 4.17 becouse my bcc linux system is 4.16 v.
- 
+
 ### 2. Extract the kernel source code
 
 ```bin
 sudo tar -xvf linux-4.17.4.tar.xz -C/usr/src/
 ```
 
+Then, change directory:
+
+```bin
+cd /usr/src/linux-4.17.4/
+```
